@@ -1,5 +1,7 @@
 {
   "version": "0.1.1",
+  "name": "@elvis-krop/multicall-v2",
+  "author": "Nikita Zasimuk",
   "license": "MIT",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -18,7 +20,6 @@
     "size": "size-limit",
     "analyze": "size-limit --why"
   },
-  "peerDependencies": {},
   "commitlint": {
     "extends": [
       "@commitlint/config-conventional"
@@ -30,8 +31,6 @@
     "singleQuote": true,
     "trailingComma": "all"
   },
-  "name": "@elvis-krop/multicall-v2",
-  "author": "Nikita Zasimuk",
   "module": "dist/multicall-v2.esm.js",
   "size-limit": [
     {
@@ -43,6 +42,7 @@
       "limit": "10 KB"
     }
   ],
+  "peerDependencies": {},
   "devDependencies": {
     "@commitlint/cli": "^16.0.1",
     "@commitlint/config-conventional": "^16.0.0",
